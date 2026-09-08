@@ -26,21 +26,21 @@ No custom CUDA extensions are required; GPU acceleration is handled automaticall
 
 ---
 
-## 🚀 Quick start
+## 🚀 Quick start
 
-The repository contains two ready‑to‑run scripts. **All hyper‑parameters are controlled by the YAML files inside the configs directory**, so the basic usage is simply:
+The repository contains two ready‑to‑run scripts. **All hyper‑parameters are controlled by the YAML files inside the **configs** directory**, so the basic usage is simply:
 
 ```bash
 # Baseline LATINO model
 python main_LATINO.py            # uses configs/LATINO.yaml by default
 
 # Prompt‑optimized LATINO‑PRO model
-python main_LATINO_PRO.py        # uses configs/LATINO-PRO.yaml by default
+python main_LATINO_PRO.py        # uses configs/LATINO_PRO.yaml by default
 ```
 
-`configs/problem` offers different inverse problem operators to choose from.
+```configs/problem``` offers different inverse problem operators to choose from.
 
-`configs/image` includes two examples taken from the FFHQ and AFHQ datasets.
+```configs/image``` includes two examples taken from the FFHQ and AFHQ datasets.
 
 ---
 
